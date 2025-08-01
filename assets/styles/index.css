@@ -1,0 +1,22 @@
+/* reset do css*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+h1,p{
+    text-align: center;
+    margin-top: 0px;
+}
+
+header{
+    background-color: rgb(54, 2, 102);
+    color: aliceblue;
+    padding: 75px;
+}
