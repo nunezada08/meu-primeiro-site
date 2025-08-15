@@ -161,3 +161,45 @@ footer p {
   color: white;
   transform: translateY(-2px);
 }
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  header, main, #sobre-mim, #meus-hobbies, #contato, footer {
+    padding: 20px;
+    width: 98%;
+    border-radius: 16px;
+  }
+
+  #sobre-mim, #meus-hobbies, #contato {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  li {
+    min-width: unset;
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  #titulo-sobre-mim, #titulo-meus-hobbies {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .texto-sobre-mim, .texto-meus-hobbies {
+    font-size: 16px;
+  }
+
+  #contato h3 {
+    font-size: 18px;
+  }
+
+  #contato p {
+    font-size: 15px;
+  }
+}
