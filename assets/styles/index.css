@@ -166,7 +166,7 @@ footer p {
 @media (max-width: 768px) {
   header, main, #sobre-mim, #meus-hobbies, #contato, footer {
     padding: 20px;
-    width: 98%;
+    width: 100%;
     border-radius: 16px;
   }
 
