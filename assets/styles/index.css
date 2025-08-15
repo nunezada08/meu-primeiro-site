@@ -138,3 +138,26 @@ footer {
 footer p {
     font-size: 1rem;
 }
+
+#paginaTeste {
+  text-align: center;
+}
+
+#paginaTeste a {
+  color: rgb(163, 109, 250);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 0 0;
+    border: 2px solid rgb(163, 109, 250);
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    
+}
+
+#paginaTeste a:hover {
+  background-color: rgb(191, 154, 250);
+  color: white;
+  transform: translateY(-2px);
+}
